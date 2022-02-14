@@ -33,7 +33,7 @@ class Location {
     ];
   }
 
-  static Location fetchByID(int locationID) {
+  static Location? fetchByID(int locationID) {
     // fetchy all location , iterate and when we finde the location with the id i want,  return it immediately
     List<Location> locations = Location.fetchAll();
     for (var i = 0; i < locations.length; i++) {

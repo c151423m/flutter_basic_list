@@ -1,5 +1,4 @@
-// ignore_for_file: deprecated_member_use
-
+// this will call the app.dart , which will build the file
 import 'package:flutter/material.dart';
 import 'package:flutter_basic_list/app.dart';
 import 'package:flutter_basic_list/screen/location_detail/location_detail.dart';
